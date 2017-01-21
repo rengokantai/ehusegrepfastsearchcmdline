@@ -39,3 +39,10 @@ grep "http\+" readme.md
 grep -E "http?" readme.md
 grep -E "http+" readme.md
 ```
+
+
+###9 Search for optional patterns with grep OR
+```
+grep "a\|b"
+grep -E "a|b"
+```
