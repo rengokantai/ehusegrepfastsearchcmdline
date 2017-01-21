@@ -27,3 +27,15 @@ show line numbers
 ```
 grep -n "#" *.md
 ```
+
+###7 Search for basic patterns using grep
+char:
+- . one char
+- * 0 or more char
+
+```
+grep "http\?" readme.md
+grep "http\+" readme.md
+grep -E "http?" readme.md
+grep -E "http+" readme.md
+```
